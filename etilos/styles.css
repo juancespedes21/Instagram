@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-primary{
+background-color: #fafafa;
+}
+.bg-secundary{
+    background-color: white;
+}
+.border{
+    border: 1px solid rgb(199, 198, 198);
+}
+.mt {
+    margin-top: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
+.cursor{
+    cursor: pointer;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid rgb(172, 170, 170);
+    justify-content: space-around;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 88%;
+    z-index: 100;
+}
+.navbar div{
+    flex: 1;
+}
+.navbar .Search{
+    padding: 5px;
+    border: 1px solid rgb(194, 193, 193);
+}
+.icon{
+    font-size: 20px;
+    color: rgb(24, 24, 24);
+    margin: 5px;
+    align-items: center;
+
+}
+.icon:hover{
+    color: rgb(131, 130, 130);
+    cursor: pointer;
+}
+.d-flex{
+    display: flex;
+}
+.content .publicaciones{
+    flex: 2;
+    margin-top: 70px;
+}
+.content .aside{
+    flex: 1;
+    height: 100px;
+    margin-top: 70px;
+    position: relative;
+}
+.aside-conter{
+    position: sticky;
+    top: 0;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.content{
+    gap: 10px;
+    padding: 15px 200px;
+}
+
+
+.estados{
+    padding: 10px;
+    gap: 20px;    
+}
+
+.estado{
+    border: 2px solid #c72d8e;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../imagenes/Persona1.jpg);
+    background-size: cover;
+}
+.estado1{
+    border: 2px solid #c72d8e;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../imagenes/Persona2.jpg);
+    background-size: cover;
+}
+.estado2{
+    border: 2px solid #c72d8e;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../imagenes/Persona3.jpg);
+    background-size: cover;
+}
+.estado3{
+    border: 2px solid #c72d8e;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../imagenes/Perfona4.jpg);
+    background-size: cover;
+}
+.estado4{
+    border: 2px solid #c72d8e;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../imagenes/persona6.jpg);
+    background-size: cover;
+}
+
+.user_txt{
+    font-size: 12px;
+}
+.pubicacion{
+    margin-bottom: 30px; 
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.user_bold{
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.user-info{
+    align-items: center;
+    padding: 10px;
+}
+.btn-action{
+    text-align: right;
+
+}
+.action{
+    justify-content: space-around;
+    padding: 20px;
+}
+.txt-right{
+    text-align: right;
+}
+.publication-description{
+    margin: 5px 20px;
+}
+.add-comment{
+    width: 93.9%;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    border: 1px solid rgb(226, 224, 224);
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+.dropdown-content button{
+    width: 100%;
+    background-color: white;
+    border: none;
+    text-align: left;
+    padding: 6px;
+}
+.dropdown-content button:hover{
+    background-color: rgb(230, 227, 227);
+}
+.border-img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #c72d8e;
+}
+.img-aside1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #c72d8e;
+}
+.btn-aside{
+    text-align: right;
+    background-color: white;
+    width: 80px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    color: rgb(61, 61, 243);
+}
+.btn-aside:hover{
+    cursor: pointer;
+    color: rgb(66, 66, 180);
+
+}
+.user-aside1{
+    width: 100%;
+    margin-left: 2px;   
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 18px;
+}
+.t-user-aside{
+    color: gray;
+}
+.sugerencia-aside{
+    margin-top: 20px;
+}
+.btn2-aside{
+    text-align: right;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    color: rgb(17, 17, 17);
+    width: 80px;
+}
+.sugerencia-aside p{
+    color: rgb(146, 144, 144);
+}
+.img-aside2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: 2px solid #c72d8e;
+}
+.user-aside2{
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 18px;
+}
+.t-user-aside2{
+    color: gray;
+    font-size: 14px;
+}
